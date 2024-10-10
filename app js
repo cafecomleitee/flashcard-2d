@@ -1,35 +1,5 @@
-Criacartao(
-'Categoria'
-'Pergunta'
-'Resposta'
-)
-
-Criacartao(
-'Categoria'
-'Pergunta'
-'Resposta'
-)
-
-Criacartao(
-'Categoria'
-'Pergunta'
-'Resposta'
-)
-
-Criacartao(
-'Categoria'
-'Pergunta'
-'Resposta'
-)
-
-Criacartao(
-'Categoria'
-'Pergunta'
-'Resposta'
-)
-
-Criacartao(
-'Categoria'
-'Pergunta'
-'Resposta'
-)
+function criaCartao (categoria, pergunta, resposta) {
+    let container = document.getflementById ('container')
+    let cartao = document.createflement ('article')
+    cartao.className = cartao
+}
