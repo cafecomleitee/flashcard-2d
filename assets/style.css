@@ -33,6 +33,7 @@ body {
 .cartao__conteudo h3 {
     background-color: black;
     text-align: left;
+    color: var (--text-color);
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
@@ -47,6 +48,8 @@ body {
 
 footer{
     background-color:black;
+    margin-top: 4rem;
+    font-size: 1.4Vw;
     color:aliceblue;
     position: fixed;
     bottom: 0;
@@ -61,7 +64,7 @@ footer p {
     font-weight: 700;
 }
 
-.cartao:hover  .cartao__conteudo { 
+.cartao.active  .cartao__conteudo { 
     transform: rotateY(180deg);
 }
 
@@ -71,6 +74,28 @@ footer p {
     position: absolute;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
-.cartao__conteudo__resposta {}
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);
+    background-color: rgba( 0, 244, 191, 0.2);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;   
+}
+@media (max-hodth: 560px) {
+    body }
+background-color:url() ;
